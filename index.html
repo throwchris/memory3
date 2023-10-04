@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Memory 3</title>
+</head>
+
+<body class="w3-light-grey">
+
+    <!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-yellow w3-card w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <!--
+      <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+      <a href="chapter2.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Chapter 2</a>
+      <a href="chapter3.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Chapter 3</a>
+      <a href="chapter4.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Chapter 4</a>
+      <a href="chapter5.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Chapter 5</a>
+      -->
+    </div>
+    
+    <!-- Navbar on small screens 
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+      <a href="chapter2.html" class="w3-bar-item w3-button w3-padding-large">Chp 2</a>
+      <a href="chapter3.html" class="w3-bar-item w3-button w3-padding-large">Chp 3</a>
+      <a href="chapter4.html" class="w3-bar-item w3-button w3-padding-large">Chp 4</a>
+      <a href="chapter5.html" class="w3-bar-item w3-button w3-padding-large">Chp 5</a>
+      
+    </div>
+    -->
+  </div>
+
+    <header class="w3-container w3-black w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin w3-jumbo glow">Her First Message</h1>
+        <H1>LETS GO!!!!!</H1><br>
+        <p class="glow2">Lets Sharpen That Memory!</p>
+        <p class="glow2">Click the empty space to see what the word should be, but try to guess before you click!!!!!</p>
+        
+        
+    </header>
+
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+        
+        <p class="w3-justify w3-mobile" style="font-size: 1.3em;">
+            
+            <span class="w3-opacity" style="font-size: small;">1</span> <span class="w3-text-light-grey" id="text" onclick="toggleTextColor()">Most</span> flesh manifestations 
+            in the meeting are under control.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">2</span> We must have a breakthrough into the 
+            <span class="w3-text-light-grey" id="text2" onclick="toggleTextColor2()">real</span> overpowering power of the unlimited resources of God.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">3</span> We must <span class="w3-text-light-grey" id="text3" onclick="toggleTextColor3()">now</span> learn to 
+            build back the manifestation of the Spirit in truth according to the Spirit.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">4</span> Each one of us must <span class="w3-text-light-grey" id="text4" onclick="toggleTextColor4()">individually</span> seek God until we know what God’s will is for us, 
+            and what our ministries are. 
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">5</span> When we get answers from anyone but God, or through others, it usually brings confusion unless it is 
+            given under the heavy anointing of the Spirit when only <span class="w3-text-light-grey" id="text5" onclick="toggleTextColor5()">truth</span> is spoken.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">6</span> There is a manifestation of the flesh and there is a manifestation of the Spirit. The flesh must be 
+            under control of the Spirit at all times, <span class="w3-text-light-grey" id="text6" onclick="toggleTextColor6()">especially</span> where we’re dealing with others.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">7</span> But the Spirit of God without the flesh is almost useless, as God has chosen 
+            <span class="w3-text-light-grey" id="text7" onclick="toggleTextColor7()">mankind</span> to 
+            overcome and minister. This was his plan.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">8</span> The flesh vessels must be emptied out and 
+            <span class="w3-text-light-grey" id="text8" onclick="toggleTextColor8()">cleaned</span> before the Spirit will 
+            manifest himself through us in this new order about to be revealed.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">9</span> God has promised unlimited power to those who 
+            <span class="w3-text-light-grey" id="text9" onclick="toggleTextColor9()">qualify</span> and 
+            ready themselves in these last days at this time.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">10</span> He said, "This will <span class="w3-text-light-grey" id="text10" onclick="toggleTextColor10()">cost</span> you something, to receive this."
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">11</span> Just reading and learning God by the 
+            <span class="w3-text-light-grey" id="text11" onclick="toggleTextColor11()">mind</span> will not accomplish this.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">12</span> This can only be achieved by a  
+            <span class="w3-text-light-grey" id="text12" onclick="toggleTextColor12()">knowledge</span> and a relationship with Jesus Christ.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">13</span> Practice prayer, 
+            <span class="w3-text-light-grey" id="text13" onclick="toggleTextColor13()">believing</span> for the answer.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">14</span> God’s promises are true and he will not 
+            <span class="w3-text-light-grey" id="text14" onclick="toggleTextColor14()">fail</span>.
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">15</span> If your prayers are not being answered, check your 
+            <span class="w3-text-light-grey" id="text15" onclick="toggleTextColor15()">motives</span>.
+            <br><br>
+            
+            <span class="w3-opacity" style="font-size: small;">16</span> And how much time do we give to 
+            <span class="w3-text-light-grey" id="text16" onclick="toggleTextColor16()">him</span>?
+            <br><br>
+
+            <span class="w3-opacity" style="font-size: small;">17</span> Expect great things from God after we’ve learned 
+            <span class="w3-text-light-grey" id="text17" onclick="toggleTextColor17()">obedience</span> for a while and 
+            after we’ve learned to put this flesh under subjection.
+            <br><br>
+
+
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </p>
+    </div>
+  
+    <script src="script.js"></script>
+    <script>
+   
+        // Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+    </script>
+</body>
+
+</html>
